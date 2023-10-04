@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      table,
+      tr,
+      td,
+      th {
+        border: 2px solid black;
+        text-align: center;
+      }
+    </style>
+    <title>Table</title>
+  </head>
+  <body>
+    <h2>Table</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Phone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sadiqur Rahman</td>
+          <td>Dhaka</td>
+          <td>01760521688</td>
+        </tr>
+        <tr>
+          <td>Mahtab</td>
+          <td>Rajshahi</td>
+          <td>0198521589</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">copyright</td>
+        </tr>
+      </tfoot>
+    </table>
+    <br>
+    <h3>Table using colspan</h3>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th colspan="2">Phone</th>
+      </tr>
+      <tr>
+        <td>Sadiqur Rahman</td>
+        <td>01760521688</td>
+        <td>01828029364</td>
+      </tr>
+    </table>
+    <br>
+    <h3>Table using rowspan</h3>
+    <table>
+      <tr>
+        <th>Name</th>
+        <td>Sadiqur Rahman</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Phone</th>
+        <td>01760521688</td>
+      </tr>
+      <tr>
+        <td>01828029364</td>
+      </tr>
+    </table>
+  </body>
+</html>
