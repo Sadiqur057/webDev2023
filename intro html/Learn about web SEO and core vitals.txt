@@ -1,0 +1,14 @@
+CLS-> Cumulative Layout Shift:
+=> It quantifies how mucb the content on a web page shift or move while loading. 
+=> For better user experience the CLS score should be as low as possible
+
+LCP-> Largest Contentful Paint:
+=> It measures the time it takes for the largest and most significant content became fully visible.
+=> For better user experience the time should be less than 2.5s
+
+FID-> First Input Delay:
+=> It measures the time from when user first interact with the page such as clicking a button or links
+=> For better user experience the time should be less than 100ms
+
+Lighthouse Report:
+=> It is a detailed analysis of web page performance, accessibility, best practice, SEO(Search Engine Optimization), Web capabilities
