@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Signup Form</h1>
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" placeholder="Username" name="username" autofocus>
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Email">
+    </div>
+    <div>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+    </div>
+    <div>
+        <label for="country">Country:</label>
+        <select name="country" id="">
+            <option value="bd">Bangladesh</option>
+            <option value="bd">India</option>
+            <option value="bd">SriLanka</option>
+            <option value="bd">Australia</option>
+        </select>
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+    </div>
+    <div>
+        <label for="comments">Comments:</label>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <input type="checkbox" name="terms" id="terms">
+        <label for="terms">I agree to all terms.</label>
+    </div>
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+</body>
+</html>
