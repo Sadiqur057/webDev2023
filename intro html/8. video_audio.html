@@ -6,8 +6,30 @@
     <title>Audio and Video</title>
 </head>
 <body>
+    <h1>Audio</h1>
+    <h3>Instructions for Audio:</h3>
+    <p>Here is some attribute of Audio elements</p>
+    <ol type="1">
+        <li>controls: Add controls like play pause</li>
+        <li>autoplay: Autoplay when page loads</li>
+        <li>loop: Repeat the video</li>
+        <li>mute: Mute by default</li>
+        <li>preload: none,metadata,auto</li>
+        <ul><li>
+            auto: download auto while loading.
+            none: nothing
+            metadata: only load meta information
+        </li></ul>
+    </ol>
+
+    <div>
+        <audio src="../audio/mp3-now.com - Senya  The Story Of Itachi Uchiha AMVEdit.mp3" controls ></audio>
+        <audio src="../audio/mp3-now.com - Senya  The Story Of Itachi Uchiha AMVEdit.mp3" controls preload="auto"></audio>
+    </div>
+
+
     <h1>Video</h1>
-    <h3>Instructions:</h3>
+    <h3>Instructions for Video:</h3>
     <p>Here is some attribute of video elements</p>
     <ol type="1">
         <li>controls: Add controls like play pause</li>
@@ -17,7 +39,7 @@
         <li>poster: specifies the image before the video starts playing</li>
     </ol>
     <div>
-        <video src="../video/senya.mp4" controls height="255px" autoplay></video>
+        <video src="../video/senya.mp4" controls height="255px" ></video>
     </div>
     <div>
         <video src="../video/itachi.mp4" height="295px"controls poster="../img/itachi.jpg" ></video>
